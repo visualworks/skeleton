@@ -8,7 +8,7 @@ export default class Layout extends App {
                 <div className="hero-body">
                     <div className="container has-text-centered">
                         <h1 className="title">Hello World!</h1>
-                        <h2 className="subtitle">Sample Application</h2>
+                        <h2 className="subtitle">Sample Application <span className="icon"><i className="fa fa-comment"></i></span></h2>
                     </div>
                 </div>
             </section>

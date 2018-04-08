@@ -1,12 +1,9 @@
-import React from "react";
+import "scss/style.scss";
+import React, {Component} from "react";
 import ReactDOM from "react-dom";
-import Layout from "layout";
+import Layout from "components/layout";
 
-require("css/style.scss");
 
 const layout = <Layout />;
-
-ReactDOM.render(
-    layout,
-    document.getElementById("index")
-);
+const targetDiv = document.getElementById("app");
+ReactDOM.render(layout, targetDiv);
